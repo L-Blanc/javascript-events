@@ -7,7 +7,6 @@ html {
 }
 
 body {
-  font-family: sans-serif;
   color: #fff;
   margin: 0;
   background: #FFD8D3;
@@ -22,7 +21,7 @@ body {
 }
 
 h1 {
-  font-family: 'Suranna', serif;
+  font-family: 'Suranna', 'Unna', 'Alegreya', serif;
   text-align: center;
   padding-bottom: .5rem;
   color: #000;
@@ -48,7 +47,7 @@ nav ul {
 
 /*flex-direction: column */
 nav ul li {
-  font-family: 'Suranna', serif;
+  font-family: 'Suranna', 'Unna', 'Alegreya', serif;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
@@ -65,7 +64,7 @@ img {
 }
 
 #cred {
-  font-size: .7rem;
+  font-size: .8rem;
   text-align: center;
   max-width: 50%;
   margin: auto;
@@ -80,7 +79,7 @@ font-family: 'Unna', serif;
 font-family: 'Suranna', serif;*/
 
 .intro{
-font-family: 'Roboto Condensed', serif;
+font-family: 'Roboto Condensed', 'Fjalla One', 'Oswald',  sans-serif;
   font-size: 1.2em;
 line-height: 1rem;
 word-wrap: break-word;
@@ -97,11 +96,11 @@ nav ul {
 .note{
   font-size: 1rem;
     padding-bottom: .8rem;
-    font-family: 'Roboto Condensed', serif;
+    font-family: 'Roboto Condensed', 'Fjalla One', 'Oswald', sans-serif;
 }
 footer{
   text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', 'Fjalla One', 'Oswald', sans-serif;
   color: #000;
   padding: .8rem;
 }
@@ -131,7 +130,8 @@ a:active {
   }
   h1{
     margin-bottom: 0;
-    padding: 1.8rem;
+    margin-top: 3rem;
+    padding: 1.3rem;
   }
   .byline{
     font-size: 1.5rem;
@@ -148,7 +148,6 @@ a:active {
     word-wrap: break-word;
   }
   .note{
-    padding: 1rem;
     font-size: .8rem;
     margin-left: 4rem;
     margin-right: 4rem;
@@ -163,15 +162,15 @@ nav ul {
   justify-content: space-around;
 }
 #sun{
-  padding-bottom: 1.5rem;
+  padding-bottom: .8rem;
     align-items: center;
 }
 #win{
-  padding-bottom: 1.5rem;
+  padding-bottom: .8rem;
     align-items: center;
 }
 #spr{
-  padding-bottom: 1.5rem;
+  padding-bottom: .8rem;
     align-items: center;
 }
 #fal{
@@ -181,6 +180,7 @@ nav ul {
   padding-bottom: 1.5rem;
   line-height: 1.2rem;
   align-items: center;
+  max-width: 100%;
 }
 
 nav ul li {
